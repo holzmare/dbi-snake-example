@@ -1,0 +1,20 @@
+{
+  "name": "dbi-snake-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server ./ -a localhost -p 1235 -o /index.html",
+    "bundle": "esbuild app.jsx --minify --bundle --outfile=main.js",
+    "package": "npm run bundle",
+    "start": "npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "Dependencies": {},
+  "dependencies": {
+    "dbi-snake": "github:holzmare/DBIsnake#feature/DBI-1142_DBISnake_NPM_Package",
+    "esbuild": "^0.14.43",
+    "http-server": "^14.1.1"
+  }
+}

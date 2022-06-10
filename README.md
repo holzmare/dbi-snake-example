@@ -1,8 +1,10 @@
 # dbi-snake-example
 
 ## Installation
-* Run `npm install`
-* Run `npm run bundle`
+* In a console in the project folder, run the following commands:
+  * `npm install`
+  * `npm run bundle`
 
 ## Start
-* Run `npm start`
+* In a console in the project folder, run the following command:
+  * `npm start`

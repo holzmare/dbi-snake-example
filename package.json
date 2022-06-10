@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "http-server ./ -a localhost -p 1235 -o /index.html",
-    "bundle": "esbuild app.jsx --minify --bundle --outfile=main.js",
+    "bundle": "esbuild app.js --bundle --outfile=main.js --loader:.html=text",
     "package": "npm run bundle",
     "start": "npm run test"
   },

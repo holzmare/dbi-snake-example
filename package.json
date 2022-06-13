@@ -1,7 +1,7 @@
 {
   "name": "dbi-snake-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example project using dbi-snake",
   "main": "index.js",
   "scripts": {
     "test": "http-server ./ -a localhost -p 1235 -o /index.html",
@@ -9,9 +9,8 @@
     "package": "npm run bundle",
     "start": "npm run test"
   },
-  "author": "",
+  "author": "René Holzmann <holzmare@outlook.com>",
   "license": "ISC",
-  "Dependencies": {},
   "dependencies": {
     "dbi-snake": "github:holzmare/DBIsnake#feature/DBI-1142_DBISnake_NPM_Package",
     "esbuild": "^0.14.43",
